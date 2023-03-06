@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700;800&display=swap');
+
+:root {
+    --branco: #FFFFFF;
+    --roxo-boreal: #4650BD;
+    --verde: #008364;
+}
+
+.cabecalho {
+    background-color: var(--roxo-boreal);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 120px;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho__navegacao__link{
+    color: var(--branco);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.principal {
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+}
+
+.rodape__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px;
+    background-color: var(--roxo-boreal);
+}
+
+.rodape__detalhes {
+    line-height: 40px;
+}
+
+.rodape__texto {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--branco);
+}

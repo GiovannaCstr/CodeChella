@@ -1,0 +1,131 @@
+.banner {
+    background-image: url(../images/bannerBorealHome.png);
+    background-size: cover;
+    width: 100%;
+    height: 407px;
+}
+
+.banner__titulo {
+    margin: 0;
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    color: var(--branco);
+    font-size: 64px;
+    text-align: center;
+    padding: 120px 417px;
+    line-height: 83px;
+}
+
+.comprarIngresso {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding: 64px 120px;
+}
+
+.comprarIngresso__detalhes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comprarIngresso__titulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: var(--branco);
+}
+
+.comprarIngresso__paragrafo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--branco);
+}
+
+.comprarIngresso__link {
+    color: var(--branco);
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 256px;
+    height: 56px;
+
+    background: var(--roxo-boreal);
+    box-shadow: 4px 4px 0px #444444;
+    border-radius: 16px;
+}
+
+.artistas__titulo {
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--branco);
+    margin: 0;
+    padding: 32px 120px;
+    text-align: center;
+}
+
+.artistas__data {
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 16px;
+    margin-bottom: 48px;
+}
+
+.artistas__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 56px 120px;
+}
+
+.artistas__nomes {
+    color: var(--branco);
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.artistas__nomes:nth-of-type(4n+1) {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.artistas__nomes:nth-of-type(4n+2) {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.artistas__nomes:nth-of-type(4n+3) {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.artistas__nomes:nth-of-type(4n+4) {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.banner__dois {
+    background: url(../images/Imagem.png);
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 338px;
+}
+

@@ -1,0 +1,80 @@
+.bannerMapaDeSetores {
+    background-image: url(../images/bannerMapaDeSetores.png);
+    background-size: cover;
+    width: 100%;
+    height: 407px;
+}
+
+.bannerMapaDeSetores__titulo {
+    margin: 0;
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    color: var(--branco);
+    font-size: 64px;
+    text-align: center;
+    padding: 120px 417px;
+    line-height: 83px;
+}
+
+.mapaDeSetores__mapa {
+    display: flex;
+    flex-direction: row;
+    padding: 32px 120px;
+    gap: 32px;;
+}
+
+.mapaDeSetores__legenda__titulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--branco);
+}
+
+.mapaDeSetores__legenda {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--branco);
+    line-height: 40px;
+}
+
+.pistaPremium::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #0E7DF1;
+}
+  
+
+.pistaComum::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #FE016E;
+}
+
+.cadeiras::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #01A89E;
+}
+
+.cadeirasSuperiores::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #3F51B5;
+}
+
+.rampas::before {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #0E7DF1;
+}
