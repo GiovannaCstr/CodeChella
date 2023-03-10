@@ -13,13 +13,13 @@
 </head>
 <body>
     <header class="cabecalho">
-        <a href="../pages/home.html"><img src="../Assets/images/Logo.png"></a>
+        <a href="./home.html"><img src="../Assets/images/Logo.png"></a>
         <nav>
             <ul class="cabecalho__navegacao">
-                <li><a href="../pages/experiencia.html" class="cabecalho__navegacao__link">A experiência</a></li>
-                <li><a href="#" class="cabecalho__navegacao__link">Mapa de Setores</a></li>
-                <li><a href="#" class="cabecalho__navegacao__link">Informações</a></li>
-                <li><a href="#" class="cabecalho__navegacao__link">Ingresso</a></li>
+                <li><a href="./experiencia.html" class="cabecalho__navegacao__link">A experiência</a></li>
+                <li><a href="./mapaDeSetores.html" class="cabecalho__navegacao__link">Mapa de Setores</a></li>
+                <li><a href="./informacoes.html" class="cabecalho__navegacao__link">Informações</a></li>
+                <li><a href="./ingresso.html" class="cabecalho__navegacao__link">Ingresso</a></li>
             </ul>    
         </nav>
     </header>
@@ -27,31 +27,37 @@
         <div class="bannerMapaDeSetores">
             <h1 class="bannerMapaDeSetores__titulo">Mapa de Setores</h1>
         </div>
+        <section class="mapaDeSetores__mapa">
+            <img src="../Assets/images/Mapa setores 1.png">
+            <ul class="mapaDeSetores__legenda">
+                <h2 class="mapaDeSetores__legenda__titulo">Legenda:</h2>
+                <li class="pistaPremium">Pista Premium</li>
+                <li class="legenda pistaComum">Pista Comum</li>
+                <li class="legenda cadeiras">Cadeiras térreo</li>
+                <li class="legenda cadeirasSuperiores">Cadeiras Superiores</li>
+                <li class="legenda rampas">Rampas</li>
+            </ul>
+        </section>
         <section>
-            <div class="mapaDeSetores__mapa">
-                <img src="../Assets/images/Mapa setores 1.png">
-                <ul class="mapaDeSetores__legenda">
-                    <h2 class="mapaDeSetores__legenda__titulo">Legenda:</h2>
-                    <li class="pistaPremium">Pista Premium</li>
-                    <li class="pistaComum">Pista Comum</li>
-                    <li class="cadeiras">Cadeiras térreo</li>
-                    <li class="cadeirasSuperiores">Cadeiras Superiores</li>
-                    <li class="rampas">Rampas</li>
-                </ul>
-            </div>
-            <div>
-                <h1>Mais detalhes sobre os setores:</h1>
-                <img src="../Assets/images/pista.png">
-                <h2>Pista</h2>
-                <p>Pista convencional, atendida pelos bares e banheiros das laterais do estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma grade.</p>
+            <h2 class="maisDetalhes__titulo">Mais detalhes sobre os setores:</h1>
+            <div class="maisDetalhes">
+                <div class="maisDetalhes__div">
+                    <img src="../Assets/images/pista.png">
+                    <h3 class="maisDetalhes__subtitulo">Pista</h2>
+                    <p class="maisDetalhes__p">Pista convencional, atendida pelos bares e banheiros das laterais do estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma grade.</p>
+                </div>
 
-                <img src="../Assets/images/pistaPremium.png">
-                <h2>Pista Premium</h2>
-                <p>Pista mais próxima do palco, com acesso muito próximo a banheiros e bares num raio de 100m. Todas as pessoas idosas e/ou com deficiência têm direito a acesso gratuito a essa área.</p>
-
-                <img src="../Assets/images/cadeiras.png">
-                <h2>Cadeiras</h2>
-                <p>Opção de cadeiras térreas ou elevadas. Acesso próximo a banheiros e bares, visão um pouco elevada em relação às pistas.</p>
+                <div class="maisDetalhes__div--meio">
+                    <img src="../Assets/images/pistaPremium.png">
+                    <h3 class="maisDetalhes__subtitulo">Pista Premium</h2>
+                    <p class="maisDetalhes__p">Pista mais próxima do palco, com acesso muito próximo a banheiros e bares num raio de 100m. Todas as pessoas idosas e/ou com deficiência têm direito a acesso gratuito a essa área.</p>
+                </div>    
+                
+                <div class="maisDetalhes__div">
+                    <img src="../Assets/images/cadeiras.png">
+                    <h3 class="maisDetalhes__subtitulo">Cadeiras</h2>
+                    <p class="maisDetalhes__p">Opção de cadeiras térreas ou elevadas. Acesso próximo a banheiros e bares, visão um pouco elevada em relação às pistas.</p>
+                </div>
             </div>
         </section>
     </main>
