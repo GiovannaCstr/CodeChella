@@ -68,6 +68,10 @@
     border-radius: 16px;
 }
 
+.comprarIngresso__link:hover {
+    background-color: var(--roxo-claro);
+}
+
 .artistas__titulo {
     font-family: 'Calistoga', cursive;
     font-weight: 400;
@@ -86,6 +90,29 @@
     background-color: var(--verde);
     padding: 16px;
     margin-bottom: 48px;
+    position: relative;
+}
+
+.artistas__data:before {
+    content: "";
+    position: absolute;
+    width: 359.5px;
+    height: 2px;
+    background:var(--verde);
+    left: -380px;
+    top: 50%;
+    transform: translatey(-50%);
+}
+
+.artistas__data:after {
+    content: "";
+    position: absolute;
+    width: 359.5px;
+    height: 2px;
+    background:var(--verde);
+    right: -380px;
+    top: 50%;
+    transform: translatey(-50%);
 }
 
 .artistas__container{

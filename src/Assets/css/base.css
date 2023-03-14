@@ -3,7 +3,11 @@
 :root {
     --branco: #FFFFFF;
     --roxo-boreal: #4650BD;
+    --roxo-claro: #606ADA;
     --verde: #008364;
+    --azul-claro: #C8DEEF;
+    --cinza-escuro: #444444;
+    --preto: #000000;
 }
 
 .cabecalho {
@@ -29,7 +33,7 @@
 }
 
 .principal {
-    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 115%);
 }
 
 .rodape__redes {

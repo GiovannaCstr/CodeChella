@@ -1,0 +1,67 @@
+.bannerIngressoComprado {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bannerIngressoComprado.png);
+    background-size: cover;
+    width: 100%;
+    height: 407px;
+}
+
+.IngressoComprado__titulo {
+    margin: 0;
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    color: var(--branco);
+    font-size: 64px;
+    text-align: center;
+    padding: 120px 407px;
+    line-height: 83.2px;
+}
+
+.IngressoComprado__subtitulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--branco);
+    text-align: center;
+}
+
+.ingressoCompradoSection {
+    padding: 64px 324px;
+}
+
+.ingressoComprado__container {
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    padding: 32px;
+}
+
+.ingressoComprado__cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingressoComprado__logo {
+    height: 32px;
+}
+
+.ingressoComprado__simbolo {
+    width: 32px;
+    height: 32px;
+}
+
+.ingresso__infos {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.ingressoNome {
+    font-weight: 700; 
+    font-size: 32px;
+}
+
+.ingresso__lista {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--branco);
+}

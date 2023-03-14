@@ -1,0 +1,91 @@
+.bannerIngresso {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bannerIngresso.png);
+    background-size: cover;
+    width: 100%;
+    height: 407px;
+}
+
+.bannerIngresso__titulo {
+    margin: 0;
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    color: var(--branco);
+    font-size: 64px;
+    text-align: center;
+    padding: 120px 400px;
+    line-height: 83.2px;
+}
+
+.bannerIngresso__subtitulo {
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--branco);
+    text-align: center;
+}
+
+.ingressoSection {
+    padding: 48px 322.5px 48px;
+}
+
+.formIngresso__grupo {
+    display: flex;
+    gap: 24px;
+}
+
+.ingresso__label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--branco);
+}
+
+.ingresso__input {
+    display: block;
+    border-style: none;
+    width: 795px;
+    height: 56px;
+    margin: 8px 0 32px;
+}
+
+.ingresso__input--grupo {
+    display: block;
+    border-style: none;
+    width: 385.5px;
+    height: 56px;
+    margin: 8px 0 32px;
+}
+
+.formIngresso__div {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.formIngresso__btn {
+    color: var(--branco);
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 164px;
+    height: 56px;
+
+    background: var(--roxo-boreal);
+    box-shadow: 4px 4px 0px var(--preto);
+    border-style: none;
+    border-radius: 16px;
+}
+
+.formIngresso__btn:hover {
+    background-color: var(--roxo-claro);
+    cursor: pointer;
+}

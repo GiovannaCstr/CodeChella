@@ -1,0 +1,62 @@
+.bannerInformacoes {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bannerInformacoes.png);
+    background-size: cover;
+    width: 100%;
+    height: 407px;
+}
+
+.perguntas {
+    padding: 24px 222px;
+}
+
+.bannerInformacoes__titulo {
+    margin: 0;
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    color: var(--branco);
+    font-size: 64px;
+    text-align: center;
+    padding: 120px 417px;
+    line-height: 83px;
+}
+
+.informacoes__subtitulo {
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: var(--branco);
+    text-align: center;
+}
+
+.informacoes__pergunta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: var(--branco);
+    background-color: var(--roxo-boreal); 
+    padding: 16px;
+}
+
+.informacoes__botaoVerMais {
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+.informacoes__resposta {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--cinza-escuro);
+    background-color: var(--azul-claro);
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.informacoes__resposta--link {
+    color: var(--cinza-escuro);
+}

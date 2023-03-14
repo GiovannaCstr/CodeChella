@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ingressos | CodeChella</title>
+    <title> Ingresso Comprado | CodeChella</title>
     <link rel="shortcut icon" href="./Assets/images/Símbolo-cinza 1.png" type="image/x-icon" />
 
     <link rel="stylesheet" href="../Assets/css/reset.css">
     <link rel="stylesheet" href="../Assets/css/base.css">
-    <link rel="stylesheet" href="../Assets/css/ingresso.css">
+    <link rel="stylesheet" href="../Assets/css/ingressoComprado.css">
 </head>
 <body>
     <header class="cabecalho">
@@ -24,39 +24,29 @@
         </nav>
     </header>
     <main class="principal">
-        <div class="bannerIngresso">
-            <h1 class="bannerIngresso__titulo">Garanta seu Ingresso</h1>
+        <div class="bannerIngressoComprado">
+            <h1 class="IngressoComprado__titulo">Seu ingresso está aqui!</h1>
         </div>
-        <section class="ingressoSection">
-            <h2 class="bannerIngresso__subtitulo">Preencha o formulário a seguir:</h2>
-            <form class="formIngresso">
-                <label for="nomeCompleto" class="ingresso__label">Nome Completo:</label>
-                <input type="text" id="nomeCompleto" class="ingresso__input" required>
-
-                <label for="email" class="ingresso__label">Email:</label>
-                <input type="email" id="email" class="ingresso__input" required>
+        <section class="ingressoCompradoSection">
+            <h2 class="IngressoComprado__subtitulo">Uhul, agora sim! Seu ingresso está aqui, apresente<br> na entrada do evento e divirta-se!</h2>
+            
+            <div class="ingressoComprado__container">
+                <div class="ingressoComprado__cabecalho">
+                    <img src="../Assets/images/Logo.png" class="ingressoComprado__logo">
+                    <img src="../Assets/images/Símbolo-branco 1.png" class="ingressoComprado__simbolo">
+                </div>
                 
-                <fieldset class="formIngresso__grupo">
-                    <div>
-                        <legend class="ingresso__label">Tipo de ingresso: </legend>
-                        <select class="ingresso__input--grupo">
-                            <option>Pista Premium</option>
-                            <option>Pista Comum</option>
-                            <option>Cadeiras Térreo</option>
-                            <option>Cadeiras Superiores</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label for="dataNascimento" class="ingresso__label">Data de nascimento:</label>
-                        <input type="date" id="dataNascimento" class="ingresso__input--grupo" required>
-                    </div>
-                </fieldset>
-                <div class="formIngresso__div">
-                    <button class="formIngresso__btn">Avançar!
-                        <img src="../Assets/images/setaBtnAvancar.png">
-                    </button>
-                </div>    
-            </form>
+                <div class="ingresso__infos">
+                    <img src="../Assets/images/Qr code 1.png">
+                    <ul class="ingresso__lista">
+                        <li class="ingressoNome">Moni Hillman</li>
+                        <li class="ingresso">Ingresso Cortesia</li>
+                        <li class="ingressoTipo">Setor: Pista</li>
+                        <li class="ingressoData">11/03</li>
+                        <li class="ingressoLocal">Local: São Paulo - SP</li>
+                    </ul>                    
+                </div>
+            </div>
         </section>
     </main>
     <footer class="rodape">
